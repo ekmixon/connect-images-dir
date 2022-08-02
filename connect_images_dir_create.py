@@ -3,7 +3,7 @@ import os
 import json
 from PIL import Image, ImageFilter
 
-def generate_base_16_16_png (filename):
+def generate_base_16_16_png(filename):
     size = (16, 16)
     saved = "connect_icon.png"
     try:
@@ -18,7 +18,7 @@ def generate_base_16_16_png (filename):
         return img
 
     except:
-        print( "Error: Unable to load image " + filename)
+        print(f"Error: Unable to load image {filename}")
 
 
 
